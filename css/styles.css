@@ -1,21 +1,18 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    background-color: #fff;
-    margin: 0;
-    padding: 2em;
-    height: 90vh;
-    background-size: 20vh;
-}
-h1 {
-    font-size: 1.5em;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
-}
-p {
-    width: 80vw;
-}
-a {
-    color: #369;
-}
+/* Created by: Mr. Coxall
+* Created on: Sep 2020
+* This file contains the CSS for index.html
+*/
+
+.mdl-layout__content {
+    padding-left: 15pt;
+    padding-right: 15pt;
+    padding-top: 15pt;
+  }
+  
+  p {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    padding-top: 5pt;
+  }
+  
