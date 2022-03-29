@@ -9,9 +9,16 @@
   "display": "standalone", 
   "icons": [
     {
-      "src": "/github-page-pwa/img/icon.png",
+      "src": "/github-page-pwa/android-chrome-192x192.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "sizes": "700x700"
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/github-page-pwa/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
