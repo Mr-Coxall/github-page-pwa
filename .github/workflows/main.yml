@@ -1,14 +1,14 @@
 ###############################################
-# Run GitHub's Super Linter against code base #
+# Run Mr Coxall's Super Linter against code base #
 ###############################################
 
 ---
-name: GitHub's Super Linter
+name: Mr Coxall's Super Linter
 on: push
 
 jobs:
   run-linters:
-    name: GitHub's Super Linter
+    name: Mr Coxall's Super Linter
     runs-on: ubuntu-latest
 
     steps:
@@ -22,3 +22,9 @@ jobs:
           VALIDATE_JAVASCRIPT_STANDARD: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.2
+        with:
+          # This part is also where you can pass other options, for example:
+          prettier_options: --check **/*.{js,md}      
