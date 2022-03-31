@@ -46,6 +46,7 @@ plugins:
 #########
 rules:
   {
+    "ignorePatterns": ["*.json"],
     "prettier/prettier": "error",
     "require-jsdoc":
       [
