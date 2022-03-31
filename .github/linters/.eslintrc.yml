@@ -29,6 +29,12 @@ parserOptions:
   sourceType: module
 
 ###########
+# Extends #
+###########
+extends:
+  - "prettier"
+
+###########
 # Plugins #
 ###########
 plugins:
@@ -40,6 +46,7 @@ plugins:
 #########
 rules:
   {
+    "prettier/prettier": "error",
     "require-jsdoc":
       [
         "error",
@@ -55,34 +62,3 @@ rules:
         },
       ],
   }
-
-##############################
-# Overrides for JSON parsing #
-##############################
-overrides:
-  # JSON files
-  - files:
-      - "*.json"
-    extends:
-      - plugin:jsonc/recommended-with-json
-    parser: jsonc-eslint-parser
-    parserOptions:
-      jsonSyntax: JSON
-
-  # JSONC files
-  - files:
-      - "*.jsonc"
-    extends:
-      - plugin:jsonc/recommended-with-jsonc
-    parser: jsonc-eslint-parser
-    parserOptions:
-      jsonSyntax: JSONC
-
-  # JSON5 files
-  - files:
-      - "*.json5"
-    extends:
-      - plugin:jsonc/recommended-with-json5
-    parser: jsonc-eslint-parser
-    parserOptions:
-      jsonSyntax: JSON5
