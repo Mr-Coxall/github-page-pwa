@@ -26,10 +26,16 @@
         navigator.serviceWorker.register("/github-page-pwa/sw.js", { scope: "/github-page-pwa/" })
       }
     </script>
-    <h1>GitHub page as PWA template</h1>
-    <p>This is a PWA template for GitHub pages.</p>
-    <img src="./images/ninja-coder_192.svg" width="192" height="192" alt="Ninja Coder" />
-    <br />
-    <img src="./images/notebook-animation.svg" width="25%" height="25%" alt="notebook-animation" />
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">GitHub page as PWA template</span>
+        </div>
+      </header>
+    </div>
+    <main class="mdl-layout__content">
+      <p>This is a PWA template for GitHub pages.</p>
+      <img src="./images/notebook-animation.svg" width="25%" height="25%" alt="notebook-animation" />
+    </main>
   </body>
 </html>
