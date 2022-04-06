@@ -1,6 +1,6 @@
 # ICS2O-Template-HTML
 
-[![GitHub's Super Linter](https://github.com/ICS2O-1-2021/github-page-pwa/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/ICS2O-1-2021/github-page-pwa/actions)
+[![Mr Coxall's Super Linter](https://github.com/ICS2O-1-2021/github-page-pwa/workflows/Mr Coxall's%20Super%20Linter/badge.svg)](https://github.com/ICS2O-1-2021/github-page-pwa/actions)
 
 [![Run on Repl.it](https://repl.it/badge/github/ICS2O-1-2021/github-page-pwa)](https://repl.it/github/ICS2O-1-2021/github-page-pwa)
 
