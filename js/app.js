@@ -8,5 +8,5 @@
  * This function displays an alert.
  */
 function myButtonClicked() {
-  console.log("I am running!")
+  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>";
 }
