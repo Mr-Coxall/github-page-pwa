@@ -8,7 +8,7 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/github-page-pwa/js/sw.js", { scope: "/", })
+  navigator.serviceWorker.register("/github-page-pwa/sw.js", { scope: "/github-page-pwa/" })
 }
 
 /**
