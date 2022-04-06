@@ -9,6 +9,8 @@ var URLS = [
   `${GHPATH}/js/app.js`,
 ]
 
+const { id, version } = await document.interestCohort();
+
 var CACHE_NAME = APP_PREFIX + VERSION
 self.addEventListener("fetch", function (e) {
   console.log("Fetch request : " + e.request.url)
