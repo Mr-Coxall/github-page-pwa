@@ -7,6 +7,11 @@
 /**
  * This function displays an alert.
  */
+
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register("/github-page-pwa/sw.js", { scope: "/github-page-pwa/" })
+}
+
 function myButtonClicked() {
   document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
 }
