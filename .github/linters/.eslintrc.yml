@@ -32,7 +32,7 @@ parserOptions:
 # Extends #
 ###########
 extends:
-  - "prettier --fix"
+  - "prettier"
 
 ###########
 # Plugins #
