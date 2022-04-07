@@ -2,7 +2,7 @@
   "name": "Mr Coxall's App",
   "short_name": "Mr Coxall's App",
   "description": "Github Page for Mr Coxall's App",
-  "scope": "/github-page-pwa/",
+  "scope": "/",
   "start_url": "/github-page-pwa/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
