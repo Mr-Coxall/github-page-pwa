@@ -9,7 +9,7 @@ on: [push, pull_request]
 
 jobs:
   run-linters:
-    name: GitHub's Super Linter
+    name: Linter
     runs-on: ubuntu-latest
 
     steps:
