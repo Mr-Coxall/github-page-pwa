@@ -9,7 +9,7 @@ on: [push, pull_request]
 
 jobs:
   run-linters:
-    name: Linter
+    name: Linters
     runs-on: ubuntu-latest
 
     steps:
